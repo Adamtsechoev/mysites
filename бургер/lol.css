@@ -52,7 +52,7 @@ p{
 button{
     width: 300px;
     height: 100px;
-    background: chocolate;
+    background: rgb(255, 106, 0);
     border-radius: 10px;
     border: none;
     font-size: 50px;
@@ -61,11 +61,12 @@ button{
     letter-spacing: 1px;
 }
 button:active{
-    background-color: rgba(184, 90, 22, 0.911);
+    background-color: rgba(148, 71, 17, 0.911);
+    transform: scale(0.91);
     
 }
 li:hover{
-    color: rgb(255, 213, 136);
+    color: rgb(255, 255, 255);
     border-bottom: 1px solid white;
     
 }
